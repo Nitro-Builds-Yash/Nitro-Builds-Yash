@@ -56,31 +56,35 @@ class Yashwanth implements SoftwareEngineer {
 
 ### ?? GitHub Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Nitro-Builds-Yash&theme=tokyonight&row=1&column=7&no-frame=true&no-bg=true" />
+  <a href="https://github.com/Nitro-Builds-Yash">
+    <img src="https://github-profile-trophy.vercel.app/?username=Nitro-Builds-Yash&theme=tokyonight&row=1&column=7&no-frame=true&no-bg=true" />
+  </a>
 </p>
 
 <br>
 
 ### ?? GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nitro-Builds-Yash&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitro-Builds-Yash&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="48%" />
+  <a href="https://github.com/Nitro-Builds-Yash">
+    <img src="https://github-readme-stats.vercel.app/api?username=Nitro-Builds-Yash&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
+  </a>
+  <a href="https://github.com/Nitro-Builds-Yash">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitro-Builds-Yash&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="48%" />
+  </a>
 </p>
 
 ---
 
 ### ?? Let's Connect!
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR_USERNAME_HERE">
-    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
+  <a href="https://github.com/Nitro-Builds-Yash">
+    <img src="https://skillicons.dev/icons?i=github" alt="GitHub" />
   </a>
-  <a href="https://twitter.com/YOUR_USERNAME_HERE">
-    <img src="https://skillicons.dev/icons?i=twitter" alt="Twitter" />
-  </a>
-  <a href="mailto:YOUR_EMAIL_HERE@gmail.com">
+  &nbsp;&nbsp;&nbsp;
+  <a href="mailto:Nitro-Builds-Yash@users.noreply.github.com">
     <img src="https://skillicons.dev/icons?i=gmail" alt="Email" />
   </a>
 </p>
 <p align="center">
-  <i>(Remember to update the social links above in the README!)</i>
+  <i>(Feel free to reach out for collaborations or technical discussions!)</i>
 </p>
