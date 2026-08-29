@@ -1,118 +1,86 @@
-<h1 align="center">Hi ??, I'm Athota Yashwanth</h1>
-<h3 align="center">Software Engineer ? Backend Architect ? AI & Full-Stack Developer</h3>
-
-<p align="center">
-  <a href="https://github.com/Nitro-Builds-Yash">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=0969DA&center=true&vCenter=true&width=600&lines=Building+Scalable+Backend+Systems;Designing+Agentic+AI+%26+RAG+Pipelines;Crafting+Modern+Full-Stack+Experiences;Open+Source+Contributor+%26+Lifelong+Learner" alt="Typing SVG" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Nitro-Builds-Yash&style=flat-square&color=0969da" alt="Profile Views" />&nbsp;
-  <a href="https://github.com/Nitro-Builds-Yash?tab=followers">
-    <img src="https://img.shields.io/github/followers/Nitro-Builds-Yash?label=Followers&logo=github&style=flat-square&color=238636" alt="Followers" />
-  </a>&nbsp;
-  <a href="https://stars.github.com/nominate/">
-    <img src="https://img.shields.io/badge/GitHub-Nominate%20Star-yellow?style=flat-square&logo=github" alt="Nominate Star" />
-  </a>
-</p>
-
----
-
-### ??????? About Me
-
-- ?? **Who I am**: Software developer passionate about building resilient backend microservices, real-time distributed platforms, and intelligent AI-powered agents.
-- ?? **What I'm focused on**: Deepening expertise in **Spring Boot**, **Distributed Systems**, **Multi-Agent RAG Architectures**, and **Cloud Infrastructure**.
-- ?? **Featured Work**:
-  - ??? [**voxcode**](https://github.com/Nitro-Builds-Yash/voxcode) ? A voice-native coding engine with AST symbol extraction and hybrid retrieval.
-  - ??? [**halo**](https://github.com/Nitro-Builds-Yash/halo) ? A self-corrective multi-agent RAG QA pipeline with autonomous hallucination gates.
-  - ?? [**resource-booking-api**](https://github.com/exelynt-learning-platform/backend-developer-as-final-71072-athota) ? High-throughput Spring Boot REST API with JWT stateless auth and strict RBAC.
-- ?? **Beyond Coding**: Tech enthusiast, problem solver, chess player, and open-source enthusiast.
-- ?? **Let's Talk**: Feel free to reach out for project collaborations, technical discussions, or consulting!
-
----
-
-### ??? Languages, Frameworks & Tools
-
-<p align="left">
-  <strong>Languages:</strong><br/>
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-</p>
-
-<p align="left">
-  <strong>Frameworks & Backend:</strong><br/>
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-  <img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-</p>
-
-<p align="left">
-  <strong>Databases & Cloud:</strong><br/>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/H2_Database-003B57?style=for-the-badge&logo=databricks&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
-  <img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" />
-</p>
-
----
-
-### ?? GitHub Activity & Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Nitro-Builds-Yash&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nitro-Builds-Yash&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" width="48%" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitro-Builds-Yash&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="97%" />
-</p>
-
----
-
-### ?? Featured Repositories
-
 <div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Hi%20there,%20I'm%20Yash!%20%F0%9F%91%8B&fontSize=50&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%20%26%20Backend%20Architect&descAlignY=55&descAlign=62&animation=twinkling" width="100%" />
 
-| Repository | Focus | Tech Stack |
-|:---|:---|:---|
-| ??? [**voxcode**](https://github.com/Nitro-Builds-Yash/voxcode) | Voice-native coding engine with live AST indexing & diff application | `Python` `Whisper` `BM25` `AST` `VS Code` |
-| ??? [**halo**](https://github.com/Nitro-Builds-Yash/halo) | Self-corrective Agentic RAG QA pipeline with 4 AI audit gates | `Python` `FastAPI` `RRF` `Vector DB` `pytest` |
-| ?? [**resource-booking-api**](https://github.com/exelynt-learning-platform/backend-developer-as-final-71072-athota) | Production-hardened REST API with JWT Auth, RBAC & pessimistic locking | `Java 17+` `Spring Boot` `Spring Security` `PostgreSQL` |
-
+  <a href="https://github.com/Nitro-Builds-Yash">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=Building+Scalable+Backend+Systems;Designing+Agentic+AI+%26+RAG+Pipelines;Crafting+Modern+Full-Stack+Experiences;Always+Learning.+Always+Building." alt="Typing SVG" />
+  </a>
+  <br>
+  <img src="https://komarev.com/ghpvc/?username=Nitro-Builds-Yash&style=flat-square&color=8A2BE2&label=PROFILE+VIEWS" alt="Profile Views" />
 </div>
 
----
+<br>
 
-### ?? Connect With Me
+### ??????? About Me (In Code)
+```java
+class Yashwanth implements SoftwareEngineer {
+    String location = "Earth ??";
+    String[] focusAreas = {"Backend Microservices", "Multi-Agent AI", "System Architecture"};
+    
+    public void executeDailyRoutine() {
+        while (coffee.isEmpty() == false) {
+            writeCode();
+            squashBugs();
+            learnNewTech();
+        }
+    }
+}
+```
 
+<br>
+
+### ?? Featured Creations
+<div align="center">
+  <a href="https://github.com/Nitro-Builds-Yash/voxcode">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nitro-Builds-Yash&repo=voxcode&theme=tokyonight&border_color=8A2BE2" />
+  </a>
+  <a href="https://github.com/Nitro-Builds-Yash/halo">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nitro-Builds-Yash&repo=halo&theme=tokyonight&border_color=8A2BE2" />
+  </a>
+</div>
+
+<br>
+
+### ??? Tech Arsenal
 <p align="center">
-  <a href="https://github.com/Nitro-Builds-Yash">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>&nbsp;
-  <a href="mailto:yashwanth@example.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>&nbsp;
-  <a href="https://linkedin.com">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>&nbsp;
-  <a href="https://x.com">
-    <img src="https://img.shields.io/badge/Twitter%20%2F%20X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=java,spring,python,dart,flutter,js,ts,cpp&perline=8" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=postgres,mysql,redis,mongodb,docker,git,linux,postman&perline=8" />
   </a>
 </p>
 
+<br>
+
+### ?? GitHub Trophies
 <p align="center">
-  <sub>?? From <a href="https://github.com/Nitro-Builds-Yash">Nitro-Builds-Yash</a> ? Always building, always learning.</sub>
+  <img src="https://github-profile-trophy.vercel.app/?username=Nitro-Builds-Yash&theme=tokyonight&row=1&column=7&no-frame=true&no-bg=true" />
+</p>
+
+<br>
+
+### ?? GitHub Stats
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Nitro-Builds-Yash&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitro-Builds-Yash&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="48%" />
+</p>
+
+---
+
+### ?? Let's Connect!
+<p align="center">
+  <a href="https://linkedin.com/in/YOUR_USERNAME_HERE">
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
+  </a>
+  <a href="https://twitter.com/YOUR_USERNAME_HERE">
+    <img src="https://skillicons.dev/icons?i=twitter" alt="Twitter" />
+  </a>
+  <a href="mailto:YOUR_EMAIL_HERE@gmail.com">
+    <img src="https://skillicons.dev/icons?i=gmail" alt="Email" />
+  </a>
+</p>
+<p align="center">
+  <i>(Remember to update the social links above in the README!)</i>
 </p>
