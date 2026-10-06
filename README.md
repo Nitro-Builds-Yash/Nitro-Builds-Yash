@@ -1,7 +1,11 @@
 <div align="center">
 
-  <!-- Header Meme / Full Live 3D Banner -->
-  <img src="assets/cat_coder_live_3d.gif" alt="Programming Cat Meme Live 3D" width="460" style="border-radius: 14px; max-width: 100%; box-shadow: 0 4px 14px rgba(0,0,0,0.2);" />
+  <!-- Knock Code Pictures -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/icon.png" height="225px" />
+    <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
+  </picture>
 
   <!-- for beauty -->
   <div>&nbsp;</div>
