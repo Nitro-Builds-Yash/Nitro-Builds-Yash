@@ -91,6 +91,36 @@
 
 ---
 
+### ☕ Developer Reality & Humor
+
+<div align="center">
+
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <img src="https://media.giphy.com/media/unQ3IJU2RG7DO/giphy.gif" width="340px" alt="It works on my machine" />
+        <br/>
+        <em><b>"It works on my machine ¯\_(ツ)_/¯"</b></em>
+      </td>
+      <td align="center" width="50%">
+        <img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="340px" alt="Fixing bugs in production" />
+        <br/>
+        <em><b>Fixing 1 bug... 127 new bugs appear</b></em>
+      </td>
+    </tr>
+  </table>
+
+  <div>&nbsp;</div>
+
+  <!-- Dynamic Programming Joke API Badge -->
+  <a href="https://readme-jokes.vercel.app/">
+    <img src="https://readme-jokes.vercel.app/api?theme=tokyonight&bgColor=0D1117&borderColor=30363D&qColor=58A6FF&aColor=7EE787" alt="Programming Joke" />
+  </a>
+
+</div>
+
+---
+
 ### 🔭 Currently Exploring
 - Hierarchical multi-agent reasoning graphs and asynchronous consensus architectures.
 - Graph RAG & Neo4j knowledge graphs for multi-hop complex document inference.
