@@ -1,7 +1,7 @@
 <div align="center">
 
-  <!-- Header Meme / Banner (Circular Frame) -->
-  <img src="assets/cat_coder_circle.png" alt="Programming Cat Meme" width="280" height="280" style="border-radius: 50%; max-width: 100%;" />
+  <!-- Header Meme / Banner (Square Frame) -->
+  <img src="assets/cat_coder_square.jpg" alt="Programming Cat Meme" width="300" height="300" style="border-radius: 12px; max-width: 100%;" />
 
   <!-- for beauty -->
   <div>&nbsp;</div>
