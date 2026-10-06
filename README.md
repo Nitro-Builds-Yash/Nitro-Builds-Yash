@@ -14,6 +14,7 @@ Shell:     zsh + git + docker
 
 | Repository | Architecture & Purpose | Status |
 | :--- | :--- | :---: |
+| [**Pulsus MedScout**](https://github.com/Nitro-Builds-Yash/Pulsus-MedScout) | **Biomedical literature & author intelligence**<br>Flask platform searching 10 scholarly sources with PDF contact extraction and Excel export. | `Active` |
 | [**voxcode**](https://github.com/Nitro-Builds-Yash/voxcode) | **Voice-native coding engine**<br>Features AST symbol extraction, BM25 + dense vector hybrid search, and live diffing. | `Active` |
 | [**halo**](https://github.com/Nitro-Builds-Yash/halo) | **Self-corrective Agentic RAG**<br>A multi-agent QA pipeline with autonomous hallucination gates and Reciprocal Rank Fusion. | `Active` |
 | [**resource-booking-api**](https://github.com/exelynt-learning-platform/backend-developer-as-final-71072-athota) | **Secure Enterprise Backend**<br>High-throughput Spring Boot REST API with strict RBAC, JWT auth, and pessimistic locking. | `Stable` |
