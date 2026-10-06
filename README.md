@@ -1,11 +1,7 @@
 <div align="center">
 
-  <!-- Knock Code Pictures -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
-    <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/icon.png" height="225px" />
-    <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
-  </picture>
+  <!-- Header Meme / Banner -->
+  <img src="assets/cat_coder.jpg" alt="Programming Cat Meme" width="460" style="border-radius: 12px; max-width: 100%;" />
 
   <!-- for beauty -->
   <div>&nbsp;</div>
