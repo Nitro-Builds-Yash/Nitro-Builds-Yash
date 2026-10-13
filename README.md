@@ -9,7 +9,7 @@
 
   <!-- Developer Workspace Aesthetic Banner -->
   <p align="center">
-    <img src="assets/desk_coffee_aesthetic.jpg" alt="Developer Aesthetic Workspace" width="850" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.35); max-width: 100%;" />
+    <img src="assets/frame_mac_window.png" alt="Developer Aesthetic Workspace" width="850" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.35); max-width: 100%;" />
   </p>
 
   <!-- for beauty -->
