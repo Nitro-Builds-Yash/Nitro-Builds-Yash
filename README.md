@@ -7,6 +7,11 @@
     <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
   </picture>
 
+  <!-- Developer Workspace Aesthetic Banner -->
+  <p align="center">
+    <img src="assets/desk_coffee_aesthetic.jpg" alt="Developer Aesthetic Workspace" width="850" style="border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.35); max-width: 100%;" />
+  </p>
+
   <!-- for beauty -->
   <div>&nbsp;</div>
 
