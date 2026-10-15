@@ -52,8 +52,8 @@ Skilled in Python, Java, JavaScript, TypeScript, C/C++, Dart, and modern framewo
 
 ##
 ## 🌐 Web & Data Platforms
-[**Pulsus-MedScout**](https://github.com/Nitro-Builds-Yash/Pulsus-MedScout)  
-  Biomedical Literature & Author Intelligence Platform across 34 repositories with search filters, automated PDF contact extraction, and Excel export.  
+[**OmniScout**](https://github.com/Nitro-Builds-Yash/OmniScout)  
+  Biomedical Literature & Author Intelligence Platform across 55 repositories with search filters, automated PDF contact extraction, and Excel export.  
   
 [**Crypto-Currency-Simulation**](https://github.com/Nitro-Builds-Yash/Crypto-Currency-Simulation-main)  
   A streamlined and secure backend model for cryptocurrency transactions, demonstrating Mongoose schema design and data relationships.  
