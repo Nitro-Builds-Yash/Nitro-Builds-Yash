@@ -28,7 +28,7 @@
   </p>
 
 <!-- Welcome words -->
-<h1 style="color: #FFC0CB;">Welcome to Yashwanth's GitHub ??</h1>
+<h1 style="color: #FFC0CB;">Welcome to Yashwanth's GitHub &#x1F680;</h1>
 
 **AI Developer | Software Engineer | Systems Architect**  
 
@@ -38,15 +38,15 @@ Skilled in Python, Java, JavaScript, TypeScript, C/C++, Dart, and modern framewo
 
 ---
 
-## ?? Mission Directives (What I'm Working On)
-?? **AI & Agentic Systems:** Multi-modal document chunking, self-corrective Agentic RAG (CRAG), voice-assisted coding agents  
-?? **Web & Microservices:** High-performance asynchronous backends, responsive UIs with FastAPI, Flask & Spring Boot  
-? **Data Platforms:** Biomedical literature intelligence, automated PDF data extraction & Excel reporting  
-?? **Backend Systems:** Enterprise REST APIs with strict RBAC, JWT auth, and pessimistic concurrency locking  
+## &#x1F52D; Mission Directives (What I'm Working On)
+&#x1F916; **AI & Agentic Systems:** Multi-modal document chunking, self-corrective Agentic RAG (CRAG), voice-assisted coding agents  
+&#x1F310; **Web & Microservices:** High-performance asynchronous backends, responsive UIs with FastAPI, Flask & Spring Boot  
+&#x26A1; **Data Platforms:** Biomedical literature intelligence, automated PDF data extraction & Excel reporting  
+&#x1F50C; **Backend Systems:** Enterprise REST APIs with strict RBAC, JWT auth, and pessimistic concurrency locking  
 
 ---
 
-## ?? Tech Arsenal & Skill Inventory
+## &#x2694;&#xFE0F; Tech Arsenal & Skill Inventory
 
 <p align="center">
   <b>Languages & Core Runtimes</b><br/>
@@ -68,9 +68,9 @@ Skilled in Python, Java, JavaScript, TypeScript, C/C++, Dart, and modern framewo
 
 ---
 
-<h1>?? Campaign Quests & Featured Projects</h1>
+<h1>&#x1F31F; Campaign Quests & Featured Projects</h1>
 
-## ?? AI-Powered Automation & Agents
+## &#x1F916; AI-Powered Automation & Agents
 
 **[halo](https://github.com/Nitro-Builds-Yash/halo)** &nbsp; `[DIFFICULTY: MYTHIC]`  
 A production-ready self-corrective QA assistant where users upload PDFs and perform deep multi-document reasoning with confidence scores, citations, and LangGraph fallback web search.
@@ -80,14 +80,14 @@ Universal multi-modal chunking, relational structure extraction, and context-pre
 
 ---
 
-## ?? AI & Developer Tooling
+## &#x1F9E0; AI & Developer Tooling
 
 **[voxcode](https://github.com/Nitro-Builds-Yash/voxcode)** &nbsp; `[DIFFICULTY: EPIC]`  
 Voice-assisted AI coding agent combining AST symbol extraction, BM25 + dense hybrid search, planning state machines, live diffing, and STT/TTS.  
 
 ---
 
-## ?? Web & Data Platforms
+## &#x1F310; Web & Data Platforms
 
 [**pulsus-regain**](https://github.com/Nitro-Builds-Yash/pulsus-regain) &nbsp; `[DIFFICULTY: ANCIENT]`  
 Cinematic spatial portfolio and autonomous research outreach engine with real-time 3D spatial visualization.
@@ -103,34 +103,34 @@ High-throughput Spring Boot REST API with strict RBAC, JWT authentication, and p
 
 ---
 
-## ?? Currently Leveling Up
-? Advanced **Multi-Agent Orchestration** & asynchronous consensus  
-?? **FastAPI & uv** for low-latency scalable AI API backends  
-?? **Graph RAG & Neo4j** knowledge graphs for complex document reasoning  
+## &#x1F331; Currently Leveling Up
+&#x26A1; Advanced **Multi-Agent Orchestration** & asynchronous consensus  
+&#x1F680; **FastAPI & uv** for low-latency scalable AI API backends  
+&#x1F52E; **Graph RAG & Neo4j** knowledge graphs for complex document reasoning  
 
 ---
 
-## ?? Open to Collaborate On
-?? **AI Research & Agent Projects** (NLP, Multimodal, RAG)  
-??? **Open-source developer utilities & tools**  
-?? **High-concurrency backend services & cloud architecture**  
+## &#x1F91D; Open to Collaborate On
+&#x1F4A1; **AI Research & Agent Projects** (NLP, Multimodal, RAG)  
+&#x1F6E0;&#xFE0F; **Open-source developer utilities & tools**  
+&#x1F3E2; **High-concurrency backend services & cloud architecture**  
 
 ---
 
-## ?? Reach Me At
- ?? Portfolio: [athotayashwanth.vercel.app](https://athotayashwanth.vercel.app/)  
- ?? Email: **yashwanthchowdhury749@gmail.com**  
- ?? GitHub: [github.com/Nitro-Builds-Yash](https://github.com/Nitro-Builds-Yash)  
- ?? LinkedIn: [linkedin.com/in/athota-yashwanth](https://linkedin.com/in/athota-yashwanth)  
+## &#x1F4EB; Reach Me At
+ &#x1F310; Portfolio: [athotayashwanth.vercel.app](https://athotayashwanth.vercel.app/)  
+ &#x2709;&#xFE0F; Email: **yashwanthchowdhury749@gmail.com**  
+ &#x1F4BB; GitHub: [github.com/Nitro-Builds-Yash](https://github.com/Nitro-Builds-Yash)  
+ &#x1F4BC; LinkedIn: [linkedin.com/in/athota-yashwanth](https://linkedin.com/in/athota-yashwanth)  
 
 ---
 
-## ? Fun Fact
+## &#x26A1; Fun Fact
 I love breaking complex, chaotic engineering problems down into clean deterministic state machines and AI agents ? turning unstructured data into verified knowledge! Curiosity is my superpower!  
 
 ---
 
-## ?? GitHub Telemetry & Stats
+## &#x1F4CA; GitHub Telemetry & Stats
 
 <p align="center">
   <a href="https://github.com/Nitro-Builds-Yash">
