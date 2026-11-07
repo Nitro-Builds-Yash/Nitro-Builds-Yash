@@ -90,7 +90,7 @@ I love breaking complex, chaotic engineering problems down into clean determinis
 
 ---
 
-## ?? GitHub Telemetry & Stats
+## &#x1F4CA; GitHub Telemetry & Stats
 
 <p align="center">
   <a href="https://github.com/Nitro-Builds-Yash">
