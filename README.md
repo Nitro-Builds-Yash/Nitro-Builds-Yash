@@ -90,14 +90,24 @@ I love breaking complex, chaotic engineering problems down into clean determinis
 
 ---
 
-## 📊 GitHub Stats
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Nitro-Builds-Yash&show_icons=true&theme=radical)  
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Nitro-Builds-Yash&layout=compact&theme=radical)
+## ?? GitHub Telemetry & Stats
+
+<p align="center">
+  <a href="https://github.com/Nitro-Builds-Yash">
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=Nitro-Builds-Yash&show_icons=true&theme=tokyonight&hide_border=false&border_radius=10&include_all_commits=true&count_private=true" alt="GitHub Stats" height="190" />
+  </a>
+  <a href="https://github.com/Nitro-Builds-Yash">
+    <img src="https://streak-stats.demolab.com/?user=Nitro-Builds-Yash&theme=tokyonight&hide_border=false&border_radius=10&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" height="190" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Nitro-Builds-Yash">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Nitro-Builds-Yash&theme=tokyonight" alt="Profile Details & Commit Distribution" width="95%" />
+  </a>
+</p>
 
 ---
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nitro-Builds-Yash&theme=radical&cache_seconds=3600" alt="GitHub Streak" />
-</p>
 
 <!--
 ✨ This repository is special because its `README.md` appears on your GitHub profile.  
