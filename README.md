@@ -19,6 +19,19 @@
 <div align="center">
 
 ```text
+            ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+          ▄▀  ⚠  BAT-SIGNAL DETECTED OVER GOTHAM  ⚠  ▀▄
+          █    Incoming request: "Hire an AI Developer"    █
+          ▀▄   Responding unit: YASHWANTH · ETA: now    ▄▀
+            ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                     LOADING BATCAVE ... ██████████ 100%
+```
+
+</div>
+
+<div align="center">
+
+```text
 ╔══════════════════════════════════════════════════════════════╗
 ║  🦇 PLAYER: YASHWANTH        CLASS: AI DEVELOPER      LVL 22 ║
 ║  HP  ████████████████████  100/100   (coffee-powered)        ║
@@ -143,6 +156,38 @@ Detective Work     ████████████████████ 
 
 ---
 
+## 🌃 Gotham City Map — Areas I Patrol
+
+```text
+   ┌──────────────────────── G O T H A M ─────────────────────────┐
+   │  🏙️ WAYNE TOWER          │  🧪 ACE CHEMICALS                 │
+   │  AI / Agentic Systems    │  Data Pipelines & PDF Extraction  │
+   │  threat: ▓▓▓▓▓ cleared   │  threat: ▓▓▓▓░ contained          │
+   ├──────────────────────────┼───────────────────────────────────┤
+   │  🏛️ GCPD HQ              │  🌉 THE NARROWS                   │
+   │  Backend APIs · RBAC     │  Concurrency & Race Conditions    │
+   │  threat: ▓▓▓▓▓ cleared   │  threat: ▓▓▓░░ under patrol       │
+   ├──────────────────────────┴───────────────────────────────────┤
+   │  🦇 THE BATCAVE — R&D: Graph RAG · Multi-Agent Swarms         │
+   └──────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## 🎒 Gadget Inventory
+
+| Slot | Gadget | Effect | Rarity |
+|:---:|---|---|:---:|
+| 1 | 🪝 **Grapnel Retriever** | Hybrid BM25 + dense search — pulls the right chunk from any height | 🟪 Epic |
+| 2 | 🔍 **Forensic Scanner** | AST symbol extraction — sees inside any codebase | 🟪 Epic |
+| 3 | 🛡️ **Self-Correcting Armor** | CRAG grader — blocks hallucinations, reflects citations | 🟧 Legendary |
+| 4 | 🧩 **Evidence Splitter** | Multi-modal chunker — no clue left behind | 🟧 Legendary |
+| 5 | 🔐 **Cowl Lock** | JWT + RBAC — only the right people get in | 🟦 Rare |
+| 6 | 📦 **Containment Pod** | Docker — every villain in its own cell | 🟦 Rare |
+| 7 | ☕ **Alfred's Coffee** | +50 focus, removes "sleepy" debuff | ⬜ Common (infinite) |
+
+---
+
 ## 🌳 Skill Tree
 
 ```text
@@ -181,6 +226,55 @@ Detective Work     ████████████████████ 
 | **AI / ML** | <img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" height="36" alt="AI" /> ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=E6EDF3) ![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=E6EDF3) ![ChromaDB](https://img.shields.io/badge/ChromaDB-000000?style=flat-square) |
 | **Backend** | <img src="https://skillicons.dev/icons?i=fastapi,flask,spring&theme=dark" height="36" alt="Backend" /> |
 | **Data & DevOps** | <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,git,postman&theme=dark" height="36" alt="Data and DevOps" /> |
+
+---
+
+## 📓 Patrol Log
+
+```diff
++ [NIGHT 01] Graduated from the academy — B.Tech CSE (AI & ML)
++ [NIGHT 02] Joined OMICS International as AI Developer
++ [NIGHT 03] Defeated The Hallucinator — halo goes live
++ [NIGHT 04] Cracked the Riddler's PDFs — OmniChunk deployed
++ [NIGHT 05] Taught the code to listen — voxcode online
+! [TONIGHT ] Investigating Graph RAG in the Batcave...
+- [PENDING ] Your team's toughest AI problem — send the signal 🦇
+```
+
+---
+
+<details>
+<summary><b>🕵️ Activate Detective Mode</b> <sub>(click to scan)</sub></summary>
+
+<br/>
+
+```text
+[DETECTIVE MODE: ON] ── scanning subject ─────────────────────────
+  ▸ Primary weapon ....... Python
+  ▸ Fighting style ....... Agentic RAG · state machines · clean APIs
+  ▸ Known allies ......... LangGraph, FastAPI, PyTorch, Docker
+  ▸ Weakness ............. Unfinished side projects at 3 AM
+  ▸ Threat to bugs ....... EXTREME
+  ▸ Recommended action ... Recruit immediately
+[ANALYSIS COMPLETE] ────────────────────────────────────────────
+```
+
+</details>
+
+<details>
+<summary><b>❓ Riddle me this…</b></summary>
+
+<br/>
+
+> *"I have answers, but no memory of where I got them. Give me sources and I stop lying. What am I?"*
+
+<details>
+<summary>Reveal answer</summary>
+
+An LLM without RAG. 🦇 *Case closed.*
+
+</details>
+</details>
 
 ---
 
