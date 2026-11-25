@@ -1,18 +1,18 @@
 <!-- Header -->
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:000000,60:111111,100:1A1A1A&height=180&section=header&text=ATHOTA%20YASHWANTH&fontSize=46&fontColor=F5C518&fontAlignY=42&desc=AI%20Developer%20%E2%80%A2%20Agentic%20Systems%20%E2%80%A2%20RAG%20Engineering&descAlignY=68&descSize=15&animation=fadeIn" width="100%" alt="Athota Yashwanth" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:000000,60:111111,100:1A1A1A&height=180&section=header&text=ATHOTA%20YASHWANTH&fontSize=46&fontColor=E6EDF3&fontAlignY=42&desc=AI%20Developer%20%E2%80%A2%20Agentic%20Systems%20%E2%80%A2%20RAG%20Engineering&descAlignY=68&descSize=15&animation=fadeIn" width="100%" alt="Athota Yashwanth" />
 
 <div align="center">
 
 <a href="https://athotayashwanth.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=900&color=F5C518&center=true&vCenter=true&width=680&height=34&lines=%F0%9F%A6%87+Not+the+hero+the+codebase+asked+for%2C+but+the+one+it+needed;%3E+Building+self-corrective+RAG+pipelines;%3E+Designing+voice-driven+AI+coding+agents;%3E+Turning+unstructured+data+into+verified+knowledge" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=900&color=C9D1D9&center=true&vCenter=true&width=680&height=34&lines=%F0%9F%A6%87+Not+the+hero+the+codebase+asked+for%2C+but+the+one+it+needed;%3E+Building+self-corrective+RAG+pipelines;%3E+Designing+voice-driven+AI+coding+agents;%3E+Turning+unstructured+data+into+verified+knowledge" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<a href="https://athotayashwanth.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=F5C518" alt="Portfolio" /></a>
-<a href="https://linkedin.com/in/athota-yashwanth"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=F5C518" alt="LinkedIn" /></a>
-<a href="mailto:yashwanthchowdhury749@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=F5C518" alt="Email" /></a>
-<img src="https://komarev.com/ghpvc/?username=Nitro-Builds-Yash&label=Signals%20Received&color=F5C518&style=for-the-badge" alt="Profile views" />
+<a href="https://athotayashwanth.vercel.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=E6EDF3" alt="Portfolio" /></a>
+<a href="https://linkedin.com/in/athota-yashwanth"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=E6EDF3" alt="LinkedIn" /></a>
+<a href="mailto:yashwanthchowdhury749@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=E6EDF3" alt="Email" /></a>
+<img src="https://komarev.com/ghpvc/?username=Nitro-Builds-Yash&label=Signals%20Received&color=30363D&style=for-the-badge" alt="Profile views" />
 
 </div>
 
@@ -81,8 +81,8 @@ Detective Work     ████████████████████ 
 ### [🛡️ halo](https://github.com/Nitro-Builds-Yash/halo)
 `RANK S` · Self-corrective QA assistant: upload PDFs and get multi-document reasoning with **confidence scores, citations** and a LangGraph web-search fallback.
 
-![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=F5C518)
-![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=F5C518)
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=E6EDF3)
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=E6EDF3)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-000000?style=flat-square)
 
 </td>
@@ -91,7 +91,7 @@ Detective Work     ████████████████████ 
 ### [🎙️ voxcode](https://github.com/Nitro-Builds-Yash/voxcode)
 `RANK S` · Voice-driven AI coding agent with **AST symbol extraction**, BM25 + dense hybrid search, a planning state machine, live diffs and STT/TTS.
 
-![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=F5C518)
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=E6EDF3)
 ![Hybrid Search](https://img.shields.io/badge/Hybrid%20Search-000000?style=flat-square)
 ![STT/TTS](https://img.shields.io/badge/STT%2FTTS-000000?style=flat-square)
 
@@ -103,7 +103,7 @@ Detective Work     ████████████████████ 
 ### [🧩 OmniChunk](https://github.com/Nitro-Builds-Yash/OmniChunk)
 `RANK A` · Universal multi-modal chunking engine that extracts relational structure and preserves context, with **zero information loss**.
 
-![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=F5C518)
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=E6EDF3)
 ![Multimodal](https://img.shields.io/badge/Multi--modal-000000?style=flat-square)
 
 </td>
@@ -112,8 +112,8 @@ Detective Work     ████████████████████ 
 ### [🌌 pulsus-regain](https://github.com/Nitro-Builds-Yash/pulsus-regain)
 `RANK A` · Cinematic spatial portfolio and autonomous research-outreach engine with **real-time 3D visualisation**.
 
-![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=F5C518)
-![3D](https://img.shields.io/badge/3D%20Web-000000?style=flat-square&logo=threedotjs&logoColor=F5C518)
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=E6EDF3)
+![3D](https://img.shields.io/badge/3D%20Web-000000?style=flat-square&logo=threedotjs&logoColor=E6EDF3)
 
 </td>
 </tr>
@@ -123,7 +123,7 @@ Detective Work     ████████████████████ 
 ### 🔬 OmniScout <sub>(classified · private)</sub>
 `RANK A` · Biomedical literature & author-intelligence platform across 55 sources — search filters, automated PDF contact extraction and Excel export.
 
-![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=flat-square&logo=fastapi&logoColor=F5C518)
+![FastAPI](https://img.shields.io/badge/FastAPI-000000?style=flat-square&logo=fastapi&logoColor=E6EDF3)
 ![Data](https://img.shields.io/badge/Data%20Extraction-000000?style=flat-square)
 
 </td>
@@ -132,8 +132,8 @@ Detective Work     ████████████████████ 
 ### [📅 resource-booking-api](https://github.com/exelynt-learning-platform/backend-developer-as-final-71072-athota)
 `RANK B` · High-throughput Spring Boot REST API with strict **RBAC, JWT auth** and pessimistic concurrency locking.
 
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-000000?style=flat-square&logo=springboot&logoColor=F5C518)
-![Java](https://img.shields.io/badge/Java-000000?style=flat-square&logo=openjdk&logoColor=F5C518)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-000000?style=flat-square&logo=springboot&logoColor=E6EDF3)
+![Java](https://img.shields.io/badge/Java-000000?style=flat-square&logo=openjdk&logoColor=E6EDF3)
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ Detective Work     ████████████████████ 
 | Slot | Gear |
 |---|---|
 | **Languages** | <img src="https://skillicons.dev/icons?i=py,java,ts,js,cpp,dart&theme=dark" height="36" alt="Languages" /> |
-| **AI / ML** | <img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" height="36" alt="AI" /> ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=F5C518) ![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=F5C518) ![ChromaDB](https://img.shields.io/badge/ChromaDB-000000?style=flat-square) |
+| **AI / ML** | <img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" height="36" alt="AI" /> ![LangChain](https://img.shields.io/badge/LangChain-000000?style=flat-square&logo=langchain&logoColor=E6EDF3) ![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=E6EDF3) ![ChromaDB](https://img.shields.io/badge/ChromaDB-000000?style=flat-square) |
 | **Backend** | <img src="https://skillicons.dev/icons?i=fastapi,flask,spring&theme=dark" height="36" alt="Backend" /> |
 | **Data & DevOps** | <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,git,postman&theme=dark" height="36" alt="Data and DevOps" /> |
 
@@ -206,10 +206,10 @@ Detective Work     ████████████████████ 
 
 <div align="center">
 
-<img src="https://github-readme-stats-fast.vercel.app/api?username=Nitro-Builds-Yash&show_icons=true&hide_border=true&border_radius=10&include_all_commits=true&count_private=true&bg_color=0D0D0D&title_color=F5C518&icon_color=F5C518&text_color=C9D1D9" height="165" alt="GitHub stats" />
-<img src="https://streak-stats.demolab.com/?user=Nitro-Builds-Yash&hide_border=true&border_radius=10&background=0D0D0D&ring=F5C518&fire=F5C518&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=F5C518&sideLabels=C9D1D9&dates=8B949E" height="165" alt="GitHub streak" />
+<img src="https://github-readme-stats-fast.vercel.app/api?username=Nitro-Builds-Yash&show_icons=true&hide_border=true&border_radius=10&include_all_commits=true&count_private=true&bg_color=0D0D0D&title_color=FFFFFF&icon_color=8B9DC3&text_color=C9D1D9" height="165" alt="GitHub stats" />
+<img src="https://streak-stats.demolab.com/?user=Nitro-Builds-Yash&hide_border=true&border_radius=10&background=0D0D0D&ring=8B9DC3&fire=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=FFFFFF&sideLabels=C9D1D9&dates=8B949E" height="165" alt="GitHub streak" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nitro-Builds-Yash&bg_color=0D0D0D&color=C9D1D9&line=F5C518&point=FFFFFF&area=true&area_color=F5C518&hide_border=true" width="95%" alt="Contribution graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nitro-Builds-Yash&bg_color=0D0D0D&color=C9D1D9&line=8B9DC3&point=FFFFFF&area=true&area_color=8B9DC3&hide_border=true" width="95%" alt="Contribution graph" />
 
 <br/><br/>
 
@@ -230,9 +230,9 @@ Detective Work     ████████████████████ 
 
 ### 💾 Save Point — Join the Party
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=F5C518)](https://athotayashwanth.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=F5C518)](https://linkedin.com/in/athota-yashwanth)
-[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=F5C518)](mailto:yashwanthchowdhury749@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=E6EDF3)](https://athotayashwanth.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=E6EDF3)](https://linkedin.com/in/athota-yashwanth)
+[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=E6EDF3)](mailto:yashwanthchowdhury749@gmail.com)
 
 <sub>Open to co-op missions: AI/agent research · open-source dev tools · high-concurrency backends</sub>
 
