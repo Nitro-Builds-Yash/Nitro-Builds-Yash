@@ -37,16 +37,15 @@ I build **agentic RAG systems, document-intelligence engines and developer tools
 <a href="https://github.com/Nitro-Builds-Yash/halo"><img src="assets/hud/card-halo.svg" width="49%" alt="halo" /></a>
 <a href="https://github.com/Nitro-Builds-Yash/voxcode"><img src="assets/hud/card-voxcode.svg" width="49%" alt="voxcode" /></a>
 <a href="https://github.com/Nitro-Builds-Yash/OmniChunk"><img src="assets/hud/card-omnichunk.svg" width="49%" alt="OmniChunk" /></a>
-<a href="https://github.com/Nitro-Builds-Yash/pulsus-regain"><img src="assets/hud/card-pulsus.svg" width="49%" alt="pulsus-regain" /></a>
-<img src="assets/hud/card-omniscout.svg" width="49%" alt="OmniScout (private)" />
-<a href="https://github.com/exelynt-learning-platform/backend-developer-as-final-71072-athota"><img src="assets/hud/card-booking.svg" width="49%" alt="resource-booking-api" /></a>
+<a href="https://github.com/Nitro-Builds-Yash/spindle"><img src="assets/hud/card-spindle.svg" width="49%" alt="Spindle" /></a>
+<img src="assets/hud/card-mimicmail.svg" width="49%" alt="MimicMail (private)" />
 </p>
 
 <br/>
 
 <img src="assets/hud/h-stack.svg" width="100%" alt="Arsenal" />
 
-<img src="assets/hud/credits.svg" width="100%" alt="Python, Java, TypeScript, C++, Dart, PyTorch, TensorFlow, LangChain, LangGraph, FastAPI, Flask, Spring Boot, PostgreSQL, MongoDB, Redis, ChromaDB, Docker, Git, Postman" />
+<img src="assets/hud/credits.svg" width="100%" alt="Python, Rust, Go, TypeScript, Java, PyTorch, TensorFlow, LangChain, LangGraph, FastAPI, Flask, Spring Boot, PostgreSQL, MongoDB, Redis, ChromaDB, Docker, Git, Postman" />
 
 <br/>
 
