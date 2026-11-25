@@ -10,8 +10,8 @@ FONTS_DIR = sys.argv[1]
 OUT = os.path.join(os.path.dirname(__file__), "..", "assets", "hud")
 os.makedirs(OUT, exist_ok=True)
 
-BG, PANEL, LINE = "#06080C", "#0D1117", "#262C36"
-SILVER, STEEL, DIM, BLUE = "#E6EDF3", "#8B9DC3", "#6E7681", "#4F7CFF"
+BG, PANEL, LINE = "#0F1B3D", "#14204A", "#34478A"
+SILVER, STEEL, DIM, BLUE = "#FFFFFF", "#7DD3FC", "#A5B4FC", "#818CF8"
 RARITY = {"LEGENDARY": "#C084FC", "EPIC": "#7C8CFF", "RARE": "#38BDF8", "COMMON": "#9CA3AF"}
 
 def _font(fam, file):
@@ -19,10 +19,10 @@ def _font(fam, file):
     return f"@font-face{{font-family:'{fam}';src:url(data:font/woff2;base64,{b}) format('woff2');}}"
 
 FONTS = {
-    "orb": _font("Orb", "orbitron-latin-900-normal.woff2"),
-    "orb7": _font("Orb7", "orbitron-latin-700-normal.woff2"),
-    "raj": _font("Raj", "rajdhani-latin-600-normal.woff2"),
-    "mono": _font("Mono", "share-tech-mono-latin-400-normal.woff2"),
+    "orb": _font("Orb", "bebas-neue-latin-400-normal.woff2"),
+    "orb7": _font("Orb7", "exo-2-latin-800-normal.woff2"),
+    "raj": _font("Raj", "exo-2-latin-600-normal.woff2"),
+    "mono": _font("Mono", "jetbrains-mono-latin-500-normal.woff2"),
 }
 
 def svg(name, w, h, body, fonts=("orb", "raj", "mono"), css=""):
@@ -38,12 +38,14 @@ def svg(name, w, h, body, fonts=("orb", "raj", "mono"), css=""):
 <style>{style}</style>
 <defs>
   <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-    <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+    <path d="M24 0H0V24" fill="none" stroke="#ffffff" stroke-opacity=".05"/></pattern>
   <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
-    <rect width="4" height="1" fill="#000" opacity=".35"/></pattern>
+    <rect width="4" height="1" fill="#000" opacity="0"/></pattern>
+  <linearGradient id="panelg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1B2A63"/><stop offset="1" stop-color="#121C45"/></linearGradient>
+  <linearGradient id="herog" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1E1B4B"/><stop offset=".5" stop-color="#1E3A8A"/><stop offset="1" stop-color="#0E7490"/></linearGradient>
   <linearGradient id="steel" x1="0" x2="1"><stop offset="0" stop-color="{STEEL}"/><stop offset="1" stop-color="{BLUE}"/></linearGradient>
   <linearGradient id="chrome" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#FFFFFF"/><stop offset=".55" stop-color="#C9D1D9"/><stop offset="1" stop-color="#7D8590"/></linearGradient>
+    <stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#E0E7FF"/></linearGradient>
 </defs>
 {body}
 </svg>"""
@@ -53,7 +55,7 @@ def frame(w, h, r=14):
     c = 18  # corner bracket length
     br = "".join(f'<path d="{d}" stroke="{STEEL}" stroke-width="2" fill="none"/>' for d in [
         f"M8 {8+c}V8H{8+c}", f"M{w-8-c} 8H{w-8}V{8+c}", f"M8 {h-8-c}V{h-8}H{8+c}", f"M{w-8-c} {h-8}H{w-8}V{h-8-c}"])
-    return (f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="{r}" fill="{PANEL}" stroke="{LINE}"/>'
+    return (f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="{r}" fill="url(#panelg)" stroke="{LINE}"/>'
             f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="{r}" fill="url(#grid)"/>' + br)
 
 # ---------------------------------------------------------------- HERO
@@ -63,24 +65,24 @@ def hero():
     import random; random.seed(7)
     x, sky = 0, ""
     while x < w:
-        bw, bh = random.randint(40, 90), random.randint(60, 170)
-        sky += f'<rect x="{x}" y="{h-bh}" width="{bw}" height="{bh}" fill="#0B0F16"/>'
+        bw, bh = random.randint(40, 90), random.randint(40, 110)
+        sky += f'<rect x="{x}" y="{h-bh}" width="{bw}" height="{bh}" fill="#1A2A5E"/>'
         for wy in range(h - bh + 12, h - 10, 18):
             for wx in range(x + 8, x + bw - 8, 14):
                 if random.random() < .12:
                     sky += f'<rect x="{wx}" y="{wy}" width="4" height="6" fill="{STEEL}" opacity=".35"/>'
         x += bw + random.randint(2, 8)
     body = f"""
-<rect width="{w}" height="{h}" rx="16" fill="{BG}"/>
+<rect width="{w}" height="{h}" rx="16" fill="url(#herog)"/>
 <rect width="{w}" height="{h}" rx="16" fill="url(#grid)"/>
 <g opacity=".55"><polygon points="600,{h} 380,0 820,0" fill="url(#beam)">
   <animateTransform attributeName="transform" type="rotate" values="-14 600 {h};14 600 {h};-14 600 {h}" dur="9s" repeatCount="indefinite"/></polygon></g>
 <defs><linearGradient id="beam" x1="0" y1="1" x2="0" y2="0">
-  <stop offset="0" stop-color="#C9D1D9" stop-opacity=".25"/><stop offset="1" stop-color="#C9D1D9" stop-opacity="0"/></linearGradient></defs>
+  <stop offset="0" stop-color="#BAE6FD" stop-opacity=".45"/><stop offset="1" stop-color="#C9D1D9" stop-opacity="0"/></linearGradient></defs>
 {sky}
 <rect width="{w}" height="{h}" rx="16" fill="url(#scan)"/>
 <text x="600" y="62" text-anchor="middle" class="mono fade" font-size="14" fill="{DIM}" letter-spacing="6" style="animation-delay:.1s">&gt; INCOMING SIGNAL · GOTHAM NETWORK</text>
-<text x="600" y="150" text-anchor="middle" class="orb fade" font-size="70" fill="url(#chrome)" letter-spacing="8" style="animation-delay:.3s">YASHWANTH</text>
+<text x="600" y="150" text-anchor="middle" class="orb fade" font-size="94" fill="url(#chrome)" letter-spacing="8" style="animation-delay:.3s">YASHWANTH</text>
 <text x="600" y="192" text-anchor="middle" class="raj fade" font-size="24" fill="{STEEL}" letter-spacing="10" style="animation-delay:.6s">AI DEVELOPER · AGENTIC SYSTEMS · RAG</text>
 <g class="fade" style="animation-delay:.9s">
   <rect x="470" y="222" width="260" height="40" rx="4" fill="none" stroke="{STEEL}" stroke-opacity=".6"/>
@@ -97,7 +99,7 @@ def bar(x, y, wid, pct, label, val, delay, color="url(#steel)"):
     for i in range(n):
         on = i < round(n * pct)
         seg += (f'<rect x="{x + i*(sw+3):.1f}" y="{y}" width="{sw:.1f}" height="12" rx="1.5" '
-                f'fill="{color if on else "#1A2030"}" class="{"fade" if on else ""}" '
+                f'fill="{color if on else "#26346B"}" class="{"fade" if on else ""}" '
                 f'style="animation-delay:{delay + i*0.035:.2f}s"/>')
     return (f'<text x="{x}" y="{y-8}" class="orb7" font-size="12" fill="{DIM}" letter-spacing="3">{label}</text>'
             f'<text x="{x+wid}" y="{y-8}" text-anchor="end" class="mono" font-size="13" fill="{SILVER}">{val}</text>' + seg)
@@ -112,14 +114,14 @@ def hud():
     body = f"""{frame(w, h)}
 <text x="40" y="44" class="mono" font-size="13" fill="{DIM}" letter-spacing="4">// PLAYER_01</text>
 <g transform="translate(120,165)">
-  <circle r="{r}" fill="none" stroke="#1A2030" stroke-width="10"/>
+  <circle r="{r}" fill="none" stroke="#26346B" stroke-width="10"/>
   <circle r="{r}" fill="none" stroke="url(#steel)" stroke-width="10" stroke-linecap="round"
           stroke-dasharray="{c:.1f}" stroke-dashoffset="{c:.1f}" transform="rotate(-90)">
     <animate attributeName="stroke-dashoffset" from="{c:.1f}" to="{c*0.26:.1f}" dur="1.6s" fill="freeze"/></circle>
-  <text y="-6" text-anchor="middle" class="orb7" font-size="13" fill="{DIM}" letter-spacing="3">LEVEL</text>
-  <text y="32" text-anchor="middle" class="orb" font-size="40" fill="url(#chrome)">22</text>
+  <text y="-20" text-anchor="middle" class="orb7" font-size="12" fill="{DIM}" letter-spacing="3">LEVEL</text>
+  <text y="34" text-anchor="middle" class="orb" font-size="54" fill="url(#chrome)">22</text>
 </g>
-<text x="215" y="110" class="orb" font-size="34" fill="url(#chrome)" letter-spacing="3">ATHOTA YASHWANTH</text>
+<text x="215" y="110" class="orb" font-size="45" fill="url(#chrome)" letter-spacing="3">ATHOTA YASHWANTH</text>
 <text x="217" y="142" class="raj" font-size="20" fill="{STEEL}" letter-spacing="4">CLASS · AI DEVELOPER</text>
 <g class="raj" font-size="17" fill="{SILVER}">
   <text x="217" y="182"><tspan fill="{DIM}">GUILD   </tspan>OMICS International</text>
@@ -141,7 +143,7 @@ def header(slug, idx, title, sub):
     body = f"""
 <rect width="{w}" height="{h}" fill="none"/>
 <text x="4" y="30" class="mono" font-size="14" fill="{DIM}" letter-spacing="4">{idx} //</text>
-<text x="4" y="66" class="orb" font-size="30" fill="url(#chrome)" letter-spacing="5">{escape(title)}</text>
+<text x="4" y="66" class="orb" font-size="40" fill="url(#chrome)" letter-spacing="5">{escape(title)}</text>
 <text x="{w-4}" y="66" text-anchor="end" class="raj" font-size="17" fill="{STEEL}" letter-spacing="4">{escape(sub)}</text>
 <rect x="4" y="78" width="{w-8}" height="1" fill="{LINE}"/>
 <rect x="4" y="77" width="120" height="3" fill="url(#steel)">
@@ -155,16 +157,16 @@ def card(slug, rank, title, line1, line2, tags, rarity):
     tx, chips = 34, ""
     for t in tags:
         tw = len(t) * 8.4 + 22
-        chips += (f'<rect x="{tx}" y="160" width="{tw}" height="26" rx="13" fill="#161B22" stroke="{LINE}"/>'
+        chips += (f'<rect x="{tx}" y="160" width="{tw}" height="26" rx="13" fill="#1C2A5C" stroke="{LINE}"/>'
                   f'<text x="{tx+tw/2}" y="178" text-anchor="middle" class="mono" font-size="13" fill="{SILVER}">{escape(t)}</text>')
         tx += tw + 8
     body = f"""{frame(w, h)}
 <rect x="1" y="1" width="6" height="{h-2}" rx="3" fill="{col}"/>
 <text x="34" y="44" class="mono" font-size="12" fill="{col}" letter-spacing="3">◆ {rarity}</text>
 <g transform="translate({w-82},22)">
-  <rect width="56" height="56" rx="8" fill="#161B22" stroke="{col}" stroke-opacity=".7"/>
-  <text x="28" y="40" text-anchor="middle" class="orb" font-size="30" fill="url(#chrome)">{rank}</text></g>
-<text x="34" y="84" class="orb" font-size="28" fill="url(#chrome)" letter-spacing="2">{escape(title)}</text>
+  <rect width="56" height="56" rx="8" fill="#1C2A5C" stroke="{col}" stroke-opacity=".7"/>
+  <text x="28" y="40" text-anchor="middle" class="orb" font-size="40" fill="url(#chrome)">{rank}</text></g>
+<text x="34" y="84" class="orb" font-size="37" fill="url(#chrome)" letter-spacing="2">{escape(title)}</text>
 <text x="34" y="116" class="raj" font-size="18" fill="{SILVER}">{escape(line1)}</text>
 <text x="34" y="140" class="raj" font-size="18" fill="{DIM}">{escape(line2)}</text>
 {chips}"""
@@ -186,7 +188,7 @@ def quests():
   <rect x="34" y="{y}" width="96" height="28" rx="4" fill="{chip}" fill-opacity=".25" stroke="{chip}"/>
   <text x="82" y="{y+19}" text-anchor="middle" class="orb7" font-size="11" fill="{SILVER}" letter-spacing="2">{'▶ ' if active else '🔒 '}{st}</text>
   <text x="156" y="{y+21}" class="raj" font-size="21" fill="{SILVER if active else DIM}">{escape(name)}</text>
-  <rect x="760" y="{y+9}" width="340" height="10" rx="5" fill="#1A2030"/>
+  <rect x="760" y="{y+9}" width="340" height="10" rx="5" fill="#26346B"/>
   <rect x="760" y="{y+9}" width="0" height="10" rx="5" fill="url(#steel)">
     <animate attributeName="width" from="0" to="{340*p:.0f}" begin="{.3+.15*i:.2f}s" dur="1.2s" fill="freeze"/></rect>
   <text x="1166" y="{y+19}" text-anchor="end" class="mono" font-size="14" fill="{SILVER}">{int(p*100)}%</text>
@@ -205,11 +207,11 @@ def gadgets():
         x, col = 34 + i * (tw + gap), RARITY[r]
         body += f"""
 <g class="fade" style="animation-delay:{.12*i:.2f}s">
-  <rect x="{x}" y="40" width="{tw}" height="172" rx="10" fill="#0A0E14" stroke="{col}" stroke-opacity=".55"/>
+  <rect x="{x}" y="40" width="{tw}" height="172" rx="10" fill="#182557" stroke="{col}" stroke-opacity=".55"/>
   <rect x="{x}" y="40" width="{tw}" height="172" rx="10" fill="{col}" fill-opacity=".05"/>
   <text x="{x+14}" y="62" class="mono" font-size="12" fill="{DIM}">SLOT {i+1:02d}</text>
   <text x="{x+tw/2}" y="122" text-anchor="middle" font-size="46" fill="{col}" font-family="DejaVu Sans,Segoe UI Symbol,sans-serif">{g}</text>
-  <text x="{x+tw/2}" y="160" text-anchor="middle" class="orb" font-size="14" fill="url(#chrome)" letter-spacing="2">{n}</text>
+  <text x="{x+tw/2}" y="160" text-anchor="middle" class="orb" font-size="18" fill="url(#chrome)" letter-spacing="2">{n}</text>
   <text x="{x+tw/2}" y="182" text-anchor="middle" class="raj" font-size="16" fill="{SILVER}">{escape(d)}</text>
   <rect x="{x+14}" y="194" width="{tw-28}" height="4" rx="2" fill="{col}"/>
 </g>"""
@@ -219,9 +221,9 @@ def gadgets():
 def footer():
     w, h = 1200, 150
     body = f"""
-<rect width="{w}" height="{h}" rx="16" fill="{BG}"/><rect width="{w}" height="{h}" rx="16" fill="url(#grid)"/>
+<rect width="{w}" height="{h}" rx="16" fill="url(#herog)"/><rect width="{w}" height="{h}" rx="16" fill="url(#grid)"/>
 <rect width="{w}" height="{h}" rx="16" fill="url(#scan)"/>
-<text x="600" y="66" text-anchor="middle" class="orb" font-size="30" fill="url(#chrome)" letter-spacing="10">GAME SAVED</text>
+<text x="600" y="66" text-anchor="middle" class="orb" font-size="40" fill="url(#chrome)" letter-spacing="10">GAME SAVED</text>
 <text x="600" y="104" text-anchor="middle" class="mono" font-size="16" fill="{STEEL}" letter-spacing="4">CONTINUE? <tspan fill="{SILVER}">[ Y ]</tspan> / N<tspan class="blink" fill="{SILVER}"> ▌</tspan></text>
 <rect x="1" y="1" width="{w-2}" height="{h-2}" rx="16" fill="none" stroke="{LINE}"/>"""
     svg("footer.svg", w, h, body, fonts=("orb", "mono"))
