@@ -75,6 +75,20 @@ def skyline(w, h, seed=11):
         x += bw + random.randint(0, 4)
     return out
 
+BAT = "M0 0 C-6 -8 -14 -8 -22 -2 C-17 -2 -15 1 -14 4 C-11 1 -7 2 -5 5 C-3 2 -1 1 0 3 C1 1 3 2 5 5 C7 2 11 1 14 4 C15 1 17 -2 22 -2 C14 -8 6 -8 0 0Z"
+def bats(w, h, n=7, seed=5):
+    random.seed(seed); out = ""
+    for i in range(n):
+        y, sc, d = random.uniform(60, 220), random.uniform(1.1, 2.0), random.uniform(10, 18)
+        dy = random.uniform(-40, 40)
+        out += (f'<g opacity=".9"><g>'
+                f'<animateTransform attributeName="transform" type="translate" values="-60 {y:.0f};{w/2:.0f} {y+dy:.0f};{w+60} {y:.0f}" '
+                f'dur="{d:.1f}s" begin="-{random.uniform(0, d):.1f}s" repeatCount="indefinite"/>'
+                f'<g transform="scale({sc:.2f})"><path d="{BAT}" fill="#000000" stroke="#E11D2E" stroke-opacity=".35" stroke-width=".6">'
+                f'<animateTransform attributeName="transform" type="scale" values="1 1;1 .45;1 1" dur="{random.uniform(.25,.4):.2f}s" repeatCount="indefinite"/>'
+                f'</path></g></g></g>')
+    return out
+
 def hero():
     w, h = 1200, 420
     body = f"""
@@ -87,6 +101,9 @@ def hero():
   <line x1="600" y1="{h}" x2="1060" y2="0"><animate attributeName="opacity" values="1;.2;1" dur="6s" repeatCount="indefinite"/></line>
 </g>
 {rain(w, h)}
+<rect width="{w}" height="{h}" fill="#DDE3FF" opacity="0">
+  <animate attributeName="opacity" values="0;0;.16;0;.09;0;0" keyTimes="0;.86;.87;.885;.9;.92;1" dur="9s" repeatCount="indefinite"/></rect>
+{bats(w, h)}
 <g transform="translate(0,0)">{skyline(w, h)}</g>
 <rect width="{w}" height="26" fill="#000"/><rect y="{h-26}" width="{w}" height="26" fill="#000"/>
 <text x="600" y="98" text-anchor="middle" class="bb in" font-size="15" fill="{DIM}" letter-spacing="9">A NITRO BUILDS PRODUCTION</text>
@@ -153,7 +170,24 @@ def footer():
 <rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="14" fill="none" stroke="{LINE}"/>"""
     svg("footer.svg", w, h, body)
 
-hero(); xp(); footer()
+def credits():
+    w, h = 1200, 300
+    rows = [("STARRING", "Python  ·  Java  ·  TypeScript  ·  C++  ·  Dart"),
+            ("AI DIRECTION", "PyTorch  ·  TensorFlow  ·  LangChain  ·  LangGraph"),
+            ("BACKEND CREW", "FastAPI  ·  Flask  ·  Spring Boot"),
+            ("DATA & EFFECTS", "PostgreSQL  ·  MongoDB  ·  Redis  ·  ChromaDB"),
+            ("PRODUCTION", "Docker  ·  Git  ·  Postman")]
+    body = f"""<clipPath id="cc"><rect width="{w}" height="{h}" rx="14"/></clipPath>
+<g clip-path="url(#cc)"><rect width="{w}" height="{h}" fill="url(#vig)"/><rect width="{w}" height="{h}" fill="url(#glow)"/></g>"""
+    for i, (role, names) in enumerate(rows):
+        y = 64 + i * 50
+        body += (f'<g class="in" style="animation-delay:{.25*i:.2f}s">'
+                 f'<text x="380" y="{y}" text-anchor="end" class="bb" font-size="13" fill="{RED}" letter-spacing="4">{escape(role)}</text>'
+                 f'<text x="420" y="{y+1}" class="t" font-size="24" fill="{WHITE}" letter-spacing="2">{escape(names)}</text></g>')
+    body += f'<rect x="400" y="40" width="1" height="{h-80}" fill="{LINE}"/><rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="14" fill="none" stroke="{LINE}"/>'
+    svg("credits.svg", w, h, body)
+
+hero(); xp(); footer(); credits()
 for a in [("about", "01", "THE ORIGIN"), ("quests", "02", "CURRENT QUESTS"),
           ("cases", "03", "FEATURED WORK"), ("stack", "04", "ARSENAL"), ("stats", "05", "BY THE NUMBERS")]:
     header(*a)
