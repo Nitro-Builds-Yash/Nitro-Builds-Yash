@@ -1,131 +1,67 @@
-<!-- Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1F6FEB,100:8957E5&height=200&section=header&text=Athota%20Yashwanth&fontSize=48&fontColor=FFFFFF&fontAlignY=38&desc=AI%20Developer%20%E2%80%A2%20Agentic%20Systems%20%E2%80%A2%20RAG%20Engineering&descAlignY=58&descSize=16&animation=fadeIn" width="100%" alt="Athota Yashwanth" />
-
 <div align="center">
 
-<a href="https://athotayashwanth.vercel.app">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=640&height=32&lines=Building+self-corrective+RAG+pipelines;Designing+voice-driven+AI+coding+agents;Turning+unstructured+data+into+verified+knowledge" alt="Typing SVG" />
-</a>
+<a href="https://athotayashwanth.vercel.app"><img src="assets/hud/hero.svg" width="100%" alt="Yashwanth — AI Developer" /></a>
+
+<img src="assets/hud/xp.svg" width="100%" alt="Level 22 · AI Developer · next rank: Senior Developer" />
+
+<a href="https://athotayashwanth.vercel.app"><img src="https://img.shields.io/badge/Portfolio-141416?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://linkedin.com/in/athota-yashwanth"><img src="https://img.shields.io/badge/LinkedIn-141416?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:yashwanthchowdhury749@gmail.com"><img src="https://img.shields.io/badge/Email-141416?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<img src="https://komarev.com/ghpvc/?username=Nitro-Builds-Yash&label=Views&color=E11D2E&style=for-the-badge" alt="Profile views" />
+
+</div>
 
 <br/>
 
-<a href="https://athotayashwanth.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="https://linkedin.com/in/athota-yashwanth"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:yashwanthchowdhury749@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<img src="https://komarev.com/ghpvc/?username=Nitro-Builds-Yash&label=Profile%20views&color=1F6FEB&style=for-the-badge" alt="Profile views" />
+<img src="assets/hud/h-about.svg" width="100%" alt="The Origin" />
 
-</div>
+I'm an **AI Developer at OMICS International** in Hyderabad and a B.Tech CSE (AI & ML) graduate (2026).
+I build **agentic RAG systems, document-intelligence engines and developer tools** — software that takes messy, unstructured input and returns answers you can trust.
 
----
+<br/>
 
-## 👋 About Me
+<img src="assets/hud/h-quests.svg" width="100%" alt="Current Quests" />
 
-<img align="right" src="assets/frame_mac_square.png" width="260" alt="Workspace" />
+| | Quest | |
+|:--:|---|---|
+| 🔴 | **Self-Corrective RAG** — answers that grade, retry and cite themselves | *in progress* |
+| 🔴 | **Voice-Driven Coding Agent** — plan, search and edit code by voice | *in progress* |
+| ⚪ | **Graph RAG with Neo4j** — knowledge graphs for complex reasoning | *next* |
+| ⚪ | **Multi-Agent Orchestration** — async agents that reach consensus | *next* |
 
-I'm an **AI Developer at OMICS International** in Hyderabad, and a B.Tech CSE (AI & ML) graduate from MLRITM (2026).
+<br/>
 
-I build **agentic RAG systems, document-intelligence engines and developer tools** — the kind of software that takes messy, unstructured input and returns answers you can verify.
+<img src="assets/hud/h-cases.svg" width="100%" alt="Featured Work" />
 
-- 🔭 **Working on:** self-corrective RAG (CRAG), multi-modal document chunking, voice-assisted coding agents
-- 🌱 **Learning:** multi-agent orchestration, Graph RAG with Neo4j, FastAPI + `uv` for low-latency AI backends
-- 🤝 **Open to:** AI/agent research projects, open-source dev tools, high-concurrency backend work
-- ⚡ **Fun fact:** I enjoy turning chaotic problems into clean, deterministic state machines
+<p align="center">
+<a href="https://github.com/Nitro-Builds-Yash/halo"><img src="assets/hud/card-halo.svg" width="49%" alt="halo" /></a>
+<a href="https://github.com/Nitro-Builds-Yash/voxcode"><img src="assets/hud/card-voxcode.svg" width="49%" alt="voxcode" /></a>
+<a href="https://github.com/Nitro-Builds-Yash/OmniChunk"><img src="assets/hud/card-omnichunk.svg" width="49%" alt="OmniChunk" /></a>
+<a href="https://github.com/Nitro-Builds-Yash/pulsus-regain"><img src="assets/hud/card-pulsus.svg" width="49%" alt="pulsus-regain" /></a>
+<img src="assets/hud/card-omniscout.svg" width="49%" alt="OmniScout (private)" />
+<a href="https://github.com/exelynt-learning-platform/backend-developer-as-final-71072-athota"><img src="assets/hud/card-booking.svg" width="49%" alt="resource-booking-api" /></a>
+</p>
 
-<br clear="right"/>
+<br/>
 
----
+<img src="assets/hud/h-stack.svg" width="100%" alt="Arsenal" />
 
-## 🚀 Featured Projects
+<img src="assets/hud/credits.svg" width="100%" alt="Python, Java, TypeScript, C++, Dart, PyTorch, TensorFlow, LangChain, LangGraph, FastAPI, Flask, Spring Boot, PostgreSQL, MongoDB, Redis, ChromaDB, Docker, Git, Postman" />
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<br/>
 
-### [🛡️ halo](https://github.com/Nitro-Builds-Yash/halo)
-Self-corrective QA assistant: upload PDFs and get multi-document reasoning with **confidence scores, citations** and a LangGraph web-search fallback.
+<img src="assets/hud/h-stats.svg" width="100%" alt="By the Numbers" />
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FC521F?style=flat-square)
+<p align="center">
+<img src="https://github-readme-stats-fast.vercel.app/api?username=Nitro-Builds-Yash&show_icons=true&hide_border=true&border_radius=12&include_all_commits=true&count_private=true&bg_color=141416&title_color=F5F5F4&icon_color=E11D2E&text_color=D4D4D8" height="160" alt="GitHub stats" />
+<img src="https://streak-stats.demolab.com/?user=Nitro-Builds-Yash&hide_border=true&border_radius=12&background=141416&ring=E11D2E&fire=E11D2E&currStreakNum=F5F5F4&sideNums=F5F5F4&currStreakLabel=F5F5F4&sideLabels=8A8A93&dates=8A8A93&stroke=2A2A2E" height="160" alt="GitHub streak" />
+</p>
 
-</td>
-<td width="50%" valign="top">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nitro-Builds-Yash/Nitro-Builds-Yash/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Nitro-Builds-Yash/Nitro-Builds-Yash/output/snake.svg" width="100%" alt="Contribution snake" />
+</picture>
 
-### [🎙️ voxcode](https://github.com/Nitro-Builds-Yash/voxcode)
-Voice-driven AI coding agent with **AST symbol extraction**, BM25 + dense hybrid search, a planning state machine, live diffs and STT/TTS.
+<br/><br/>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![RAG](https://img.shields.io/badge/Hybrid%20Search-6E40C9?style=flat-square)
-![Speech](https://img.shields.io/badge/STT%2FTTS-0A66C2?style=flat-square)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [🧩 OmniChunk](https://github.com/Nitro-Builds-Yash/OmniChunk)
-Universal multi-modal chunking engine that extracts relational structure and preserves context, with **zero information loss**.
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Multimodal](https://img.shields.io/badge/Multi--modal-8957E5?style=flat-square)
-
-</td>
-<td width="50%" valign="top">
-
-### [🌌 pulsus-regain](https://github.com/Nitro-Builds-Yash/pulsus-regain)
-Cinematic spatial portfolio and autonomous research-outreach engine with **real-time 3D visualisation**.
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![3D](https://img.shields.io/badge/3D%20Web-000000?style=flat-square&logo=threedotjs&logoColor=white)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🔬 OmniScout <sub>(private)</sub>
-Biomedical literature & author-intelligence platform across 55 sources — search filters, automated PDF contact extraction and Excel export.
-
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Data](https://img.shields.io/badge/Data%20Extraction-1F6FEB?style=flat-square)
-
-</td>
-<td width="50%" valign="top">
-
-### [📅 resource-booking-api](https://github.com/exelynt-learning-platform/backend-developer-as-final-71072-athota)
-High-throughput Spring Boot REST API with strict **RBAC, JWT auth** and pessimistic concurrency locking.
-
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-
-</td>
-</tr>
-</table>
-
-<sub>Also: [Aetherium-Simulation](https://github.com/Nitro-Builds-Yash/Aetherium-Simulation) — a secure crypto-transaction backend demonstrating Mongoose schema design and transaction tracking.</sub>
-
----
-
-## 🛠️ Tech Stack
-
-| Area | Tools |
-|---|---|
-| **Languages** | <img src="https://skillicons.dev/icons?i=py,java,ts,js,cpp,dart&theme=dark" height="36" alt="Languages" /> |
-| **AI / ML** | <img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" height="36" alt="AI" /> ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat-square&logo=langchain&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FC521F?style=flat-square) |
-| **Backend** | <img src="https://skillicons.dev/icons?i=fastapi,flask,spring&theme=dark" height="36" alt="Backend" /> |
-| **Data & DevOps** | <img src="https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,git,postman&theme=dark" height="36" alt="Data and DevOps" /> |
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats-fast.vercel.app/api?username=Nitro-Builds-Yash&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&include_all_commits=true&count_private=true" height="165" alt="GitHub stats" />
-<img src="https://streak-stats.demolab.com/?user=Nitro-Builds-Yash&theme=tokyonight&hide_border=true&border_radius=10" height="165" alt="GitHub streak" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Nitro-Builds-Yash&theme=tokyo-night&hide_border=true&area=true" width="95%" alt="Contribution graph" />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8957E5,50:1F6FEB,100:0D1117&height=110&section=footer" width="100%" alt="" />
+<img src="assets/hud/footer.svg" width="100%" alt="To be continued" />
