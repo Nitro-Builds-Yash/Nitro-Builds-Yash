@@ -16,6 +16,21 @@
 
 </div>
 
+<div align="center">
+
+```text
+╔══════════════════════════════════════════════════════════════╗
+║  🦇 PLAYER: YASHWANTH        CLASS: AI DEVELOPER      LVL 22 ║
+║  HP  ████████████████████  100/100   (coffee-powered)        ║
+║  XP  ██████████████░░░░░░  7,400 / 10,000 → next: Senior Dev ║
+║  STATUS: 🟢 ONLINE · ON PATROL IN HYDERABAD                   ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+<sub>▶ PRESS START TO CONTINUE ◀</sub>
+
+</div>
+
 ---
 
 ## 🦇 Player Profile
@@ -128,6 +143,36 @@ Detective Work     ████████████████████ 
 
 ---
 
+## 🌳 Skill Tree
+
+```text
+                         [ 🦇 AI DEVELOPER ]
+                                  │
+        ┌─────────────────────────┼─────────────────────────┐
+        │                         │                         │
+  [ 🧠 AI / ML ]          [ ⚙️ BACKEND ]            [ 📄 DATA INTEL ]
+   ├─ ✅ PyTorch             ├─ ✅ FastAPI             ├─ ✅ PDF Extraction
+   ├─ ✅ LangChain           ├─ ✅ Spring Boot         ├─ ✅ Multi-modal Chunking
+   ├─ ✅ LangGraph (CRAG)    ├─ ✅ JWT + RBAC          ├─ ✅ Hybrid Search (BM25)
+   ├─ ✅ Vector DBs          ├─ ✅ Docker              ├─ 🔒 Graph RAG (Neo4j)
+   └─ 🔒 Multi-Agent Swarms  └─ 🔒 Distributed Queues  └─ 🔒 Knowledge Graphs
+
+   ✅ unlocked   🔒 unlocking — next skill point incoming
+```
+
+---
+
+## 👹 Boss Battles Defeated
+
+| Boss | Weakness Exploited | Loot |
+|---|---|---|
+| 🃏 **The Hallucinator** — LLM making things up | Self-grading CRAG loop + citations | Confidence scores in `halo` |
+| ❓ **The Riddler of PDFs** — tables, images, broken layouts | Structure-aware multi-modal chunking | `OmniChunk` engine |
+| 🐧 **The Race Condition** — double bookings | Pessimistic locking | Concurrency-safe booking API |
+| 🦹 **The Needle in the Codebase** — finding the right symbol | AST extraction + BM25/dense hybrid search | `voxcode` retrieval |
+
+---
+
 ## 🧰 Utility Belt — Tech Stack
 
 | Slot | Gear |
@@ -139,7 +184,13 @@ Detective Work     ████████████████████ 
 
 ---
 
-## 🏆 Achievements Unlocked
+## 🏆 Trophy Cabinet
+
+<div align="center">
+<img src="https://github-profile-trophy.vercel.app/?username=Nitro-Builds-Yash&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&column=7" alt="Trophies" />
+</div>
+
+## 🏅 Achievements Unlocked
 
 | | Achievement | |
 |:---:|---|---|
@@ -162,7 +213,32 @@ Detective Work     ████████████████████ 
 
 <br/><br/>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Nitro-Builds-Yash/Nitro-Builds-Yash/output/snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/Nitro-Builds-Yash/Nitro-Builds-Yash/output/snake.svg" alt="Contribution snake game" width="95%" />
+</picture>
+
+<br/><br/>
+
 <sub>🦇 <i>"It's not who I am underneath, but what I ship that defines me."</i></sub>
+
+</div>
+
+---
+
+<div align="center">
+
+### 💾 Save Point — Join the Party
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=F5C518)](https://athotayashwanth.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=F5C518)](https://linkedin.com/in/athota-yashwanth)
+[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=F5C518)](mailto:yashwanthchowdhury749@gmail.com)
+
+<sub>Open to co-op missions: AI/agent research · open-source dev tools · high-concurrency backends</sub>
+
+```text
+GAME SAVED ✔   Thanks for playing. Continue? [Y/N]
+```
 
 </div>
 
