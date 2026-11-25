@@ -22,7 +22,7 @@
 </defs>
 
 <text x="0" y="56" class="t" font-size="40" fill="#F5F5F4" letter-spacing="4">BY THE NUMBERS</text>
-<text x="1200" y="56" text-anchor="end" class="bb" font-size="14" fill="#E11D2E" letter-spacing="4">05</text>
+<text x="1200" y="56" text-anchor="end" class="bb" font-size="14" fill="#E11D2E" letter-spacing="4">06</text>
 <rect x="0" y="68" width="1200" height="1" fill="#2A2A2E"/>
 <rect x="0" y="67" width="64" height="3" fill="url(#redbar)"/>
 </svg>

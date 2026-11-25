@@ -190,9 +190,36 @@ def credits():
     body += f'<rect x="400" y="40" width="1" height="{h-80}" fill="{LINE}"/><rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="14" fill="none" stroke="{LINE}"/>'
     svg("credits.svg", w, h, body)
 
-hero(); xp(); footer(); credits()
+def achievements():
+    items = [("B.TECH", "GRADUATED", "CSE (AI & ML) · MLRITM", "2026"),
+             ("AI DEV", "JOINED THE GUILD", "AI Developer · OMICS International", "JUL 2026"),
+             ("48H", "48-HOUR CHALLENGE", "Spindle · DeepThought FDE", "NOV 2026"),
+             ("RAG", "SELF-CORRECTING AI", "halo: answers with citations", "SHIPPED"),
+             ("VOX", "VOICE OF THE CODE", "voxcode: coding by voice", "SHIPPED"),
+             ("05", "FIVE PROJECTS SHIPPED", "Agents · RAG · automation", "AND COUNTING")]
+    w, cols, tw, th, gap = 1200, 3, 384, 150, 24
+    h = 2 * th + gap
+    body = ""
+    for i, (code, title, sub, date) in enumerate(items):
+        x, y = (i % cols) * (tw + gap), (i // cols) * (th + gap)
+        body += f"""<g class="in" style="animation-delay:{.15*i:.2f}s">
+<rect x="{x+.5}" y="{y+.5}" width="{tw-1}" height="{th-1}" rx="12" fill="url(#card)" stroke="{LINE}"/>
+<rect x="{x+.5}" y="{y+.5}" width="{tw-1}" height="{th-1}" rx="12" fill="url(#cglow)"/>
+<g transform="translate({x+70},{y+th/2})">
+  <circle r="44" fill="#0A0A0B" stroke="url(#redbar)" stroke-width="3"/>
+  <circle r="36" fill="none" stroke="{LINE}" stroke-dasharray="3 5">
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="{14+i*2}s" repeatCount="indefinite"/></circle>
+  <text y="{9 if len(code) < 4 else 7}" text-anchor="middle" class="t" font-size="{26 if len(code) < 4 else 20}" fill="{WHITE}" letter-spacing="1">{escape(code)}</text>
+</g>
+<text x="{x+134}" y="{y+52}" class="bb" font-size="11" fill="{RED}" letter-spacing="3">✓ UNLOCKED · {escape(date)}</text>
+<text x="{x+134}" y="{y+88}" class="t" font-size="25" fill="{WHITE}" letter-spacing="1.5">{escape(title)}</text>
+<text x="{x+134}" y="{y+114}" class="b" font-size="13.5" fill="{SOFT}">{escape(sub)}</text>
+</g>"""
+    svg("achievements.svg", w, h, body)
+
+hero(); xp(); footer(); credits(); achievements()
 for a in [("about", "01", "THE ORIGIN"), ("quests", "02", "CURRENT QUESTS"),
-          ("cases", "03", "FEATURED WORK"), ("stack", "04", "ARSENAL"), ("stats", "05", "BY THE NUMBERS")]:
+          ("cases", "03", "FEATURED WORK"), ("achieve", "04", "ACHIEVEMENTS UNLOCKED"), ("stack", "05", "ARSENAL"), ("stats", "06", "BY THE NUMBERS")]:
     header(*a)
 card("halo", "FLAGSHIP · RAG", "HALO", "Self-correcting PDF Q&A with citations & confidence", "Python · LangGraph · ChromaDB", "01")
 card("voxcode", "FLAGSHIP · AGENTS", "VOXCODE", "Voice-driven AI coding agent with live diffs", "Python · Hybrid search · STT/TTS", "02")

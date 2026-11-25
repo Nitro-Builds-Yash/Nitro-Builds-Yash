@@ -43,6 +43,12 @@ I build **agentic RAG systems, document-intelligence engines and developer tools
 
 <br/>
 
+<img src="assets/hud/h-achieve.svg" width="100%" alt="Achievements Unlocked" />
+
+<img src="assets/hud/achievements.svg" width="100%" alt="Graduated B.Tech CSE (AI & ML) 2026 · AI Developer at OMICS International · Shipped Spindle in the 48-hour DeepThought FDE challenge · halo · voxcode · five projects shipped" />
+
+<br/>
+
 <img src="assets/hud/h-stack.svg" width="100%" alt="Arsenal" />
 
 <img src="assets/hud/credits.svg" width="100%" alt="Python, Rust, Go, TypeScript, Java, PyTorch, TensorFlow, LangChain, LangGraph, FastAPI, Flask, Spring Boot, PostgreSQL, MongoDB, Redis, ChromaDB, Docker, Git, Postman" />
