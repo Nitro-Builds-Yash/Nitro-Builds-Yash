@@ -197,7 +197,4 @@ for a in [("about", "01", "THE ORIGIN"), ("quests", "02", "CURRENT QUESTS"),
 card("halo", "FLAGSHIP · RAG", "HALO", "Self-correcting PDF Q&A with citations & confidence", "Python · LangGraph · ChromaDB", "01")
 card("voxcode", "FLAGSHIP · AGENTS", "VOXCODE", "Voice-driven AI coding agent with live diffs", "Python · Hybrid search · STT/TTS", "02")
 card("omnichunk", "DOCUMENT AI", "OMNICHUNK", "Multi-modal chunking with zero information loss", "Python · Multi-modal", "03")
-card("pulsus", "WEB · 3D", "PULSUS-REGAIN", "Cinematic 3D portfolio and research outreach", "JavaScript · Three.js", "04")
-card("omniscout", "DATA · PRIVATE", "OMNISCOUT", "Biomedical literature & author intelligence", "FastAPI · PDF extraction · Excel", "05")
-card("booking", "BACKEND", "BOOKING API", "Concurrency-safe bookings with RBAC & JWT", "Java · Spring Boot", "06")
 print(sorted(os.listdir(OUT)))
