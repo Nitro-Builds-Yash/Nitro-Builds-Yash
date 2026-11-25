@@ -45,6 +45,7 @@ def svg(name, w, h, body, fonts=("anton", "inter", "interb")):
     <stop offset="0" stop-color="#F5F5F4"><animate attributeName="offset" values="-.1;1.3" dur="5s" repeatCount="indefinite"/></stop>
     <stop offset="1" stop-color="#F5F5F4"/></linearGradient>
   <radialGradient id="cglow" cx="1" cy="0" r=".8"><stop offset="0" stop-color="{RED}" stop-opacity=".22"/><stop offset="1" stop-color="{RED}" stop-opacity="0"/></radialGradient>
+  <linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="{RED}" stop-opacity="0"/><stop offset=".5" stop-color="{RED}" stop-opacity=".12"/><stop offset="1" stop-color="{RED}" stop-opacity="0"/></linearGradient>
   <linearGradient id="redbar" x1="0" x2="1"><stop offset="0" stop-color="#9F1239"/><stop offset="1" stop-color="{RED}"/></linearGradient>
 </defs>
 {body}
@@ -172,7 +173,7 @@ def footer():
 
 def credits():
     w, h = 1200, 300
-    rows = [("STARRING", "Python  ·  Java  ·  TypeScript  ·  C++  ·  Dart"),
+    rows = [("STARRING", "Python  ·  Rust  ·  Go  ·  TypeScript  ·  Java"),
             ("AI DIRECTION", "PyTorch  ·  TensorFlow  ·  LangChain  ·  LangGraph"),
             ("BACKEND CREW", "FastAPI  ·  Flask  ·  Spring Boot"),
             ("DATA & EFFECTS", "PostgreSQL  ·  MongoDB  ·  Redis  ·  ChromaDB"),
@@ -184,6 +185,8 @@ def credits():
         body += (f'<g class="in" style="animation-delay:{.25*i:.2f}s">'
                  f'<text x="380" y="{y}" text-anchor="end" class="bb" font-size="13" fill="{RED}" letter-spacing="4">{escape(role)}</text>'
                  f'<text x="420" y="{y+1}" class="t" font-size="24" fill="{WHITE}" letter-spacing="2">{escape(names)}</text></g>')
+    body += f'''<rect x="0" y="0" width="220" height="{h}" fill="url(#sweep)" clip-path="url(#cc)">
+  <animate attributeName="x" values="-260;{w+40}" dur="5s" repeatCount="indefinite"/></rect>'''
     body += f'<rect x="400" y="40" width="1" height="{h-80}" fill="{LINE}"/><rect x=".5" y=".5" width="{w-1}" height="{h-1}" rx="14" fill="none" stroke="{LINE}"/>'
     svg("credits.svg", w, h, body)
 

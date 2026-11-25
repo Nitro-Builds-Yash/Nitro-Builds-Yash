@@ -46,7 +46,7 @@ I build **agentic RAG systems, document-intelligence engines and developer tools
 
 <img src="assets/hud/h-stack.svg" width="100%" alt="Arsenal" />
 
-<img src="assets/hud/credits.svg" width="100%" alt="Python, Java, TypeScript, C++, Dart, PyTorch, TensorFlow, LangChain, LangGraph, FastAPI, Flask, Spring Boot, PostgreSQL, MongoDB, Redis, ChromaDB, Docker, Git, Postman" />
+<img src="assets/hud/credits.svg" width="100%" alt="Python, Rust, Go, TypeScript, Java, PyTorch, TensorFlow, LangChain, LangGraph, FastAPI, Flask, Spring Boot, PostgreSQL, MongoDB, Redis, ChromaDB, Docker, Git, Postman" />
 
 <br/>
 
